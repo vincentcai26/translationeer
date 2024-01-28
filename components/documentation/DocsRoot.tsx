@@ -63,8 +63,7 @@ export default function DocsRoot({ paramURL }) {
     }
     optionsArr.push(
       <li>
-        <Link href={`/documentation${docOptions[i].url}`}>
-          <a className={classList}>{docOptions[i].name}</a>
+        <Link href={`/documentation${docOptions[i].url}`} className={classList}>{docOptions[i].name}
         </Link>
       </li>
     );

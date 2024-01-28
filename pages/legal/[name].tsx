@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import PContext from "../../services/context";
 
 export default function Legal() {
+  return <div></div>
   const {query:{name}} = useRouter();
   const context = useContext(PContext);
 

@@ -82,8 +82,7 @@ export default function Header() {
   return (
     <header id="header">
       <h1>
-        <Link href="/">
-          <a id="h1-link">Translationeer</a>
+        <Link href="/" id="h1-link">Translationeer
         </Link>
       </h1>
       <div className="header-space"></div>
@@ -107,13 +106,11 @@ export default function Header() {
             <ul id="languageList">{renderLanguageOptions()}</ul>
           </div>
           <div className="header-item">
-            <Link href="/documentation/howto">
-              <a className="header-item-link">How to</a>
+            <Link href="/documentation/howto" className="header-item-link">How to
             </Link>
           </div>
           <div className="header-item">
-            <Link href="/documentation">
-              <a className="header-item-link">Documentation</a>
+            <Link href="/documentation" className="header-item-link">Documentation
             </Link>
           </div>
         </div>

@@ -75,6 +75,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <PContext.Provider value={contextValue}>
+      <div id="notMaintained">Note: Translationeer is no longer being maintained</div>
       <Layout>
         <div onMouseMove={updateMouseCoords}>
           <Component {...pageProps} />
