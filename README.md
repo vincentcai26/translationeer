@@ -2,7 +2,7 @@
 
 ![Translationeer Logo](/public/images/favicon2.jpg)  
 
-An open source web app for language translation. Available as a hosted software-as-a-service at [translationeer.com](https://translationeer.com).
+An open source web app for language translation. 
 
 Current only supports Latin to/from English.
 
